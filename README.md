@@ -1,4 +1,4 @@
-#Building React Applications with Idiomatic Redux
+# Building React Applications with Idiomatic Redux
 
 Course by Dan Abramov
 
