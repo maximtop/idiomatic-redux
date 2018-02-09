@@ -5,7 +5,8 @@ import { loadState, saveState } from './localStorage';
 
 const configureStore = () => {
   const persistedState = loadState();
-  const store = createStore(todoApp, persistedState);
+  const devtools = window.__REDUX_DEVTOOLS_EXTENSION__;
+  const store = createStore(todoApp, persistedState, devtools && devtools());
   
   store.subscribe(throttle(() => {
     saveState({todos: store.getState().todos});
