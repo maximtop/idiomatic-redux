@@ -2,7 +2,7 @@
 
 Course by Dan Abramov
 
-Implemented with the most recent libraries available in February 2018:
+Implemented with the most recent libraries available in February 2018 on react-create-app:
 
     - "react": "16.2.0"
     - "react-dom": "16.2.0"
